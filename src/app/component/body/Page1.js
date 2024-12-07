@@ -9,7 +9,7 @@ import image11 from '../header/image/image11.png';
 
 const Page1 = () => {
     return (
-        <div className=''>
+        <div className='' id='howtobuy'>
             <div className='container mx-auto'>
                 <div className='mx-auto text-center'>
                 <h1 className="!leading-[120%] merryHeading text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px]">How To Buy</h1>

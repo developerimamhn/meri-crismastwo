@@ -18,7 +18,7 @@ const Page2 = () => {
         }, 2000);
     };
     return (
-        <div className="">
+        <div className="" id='tokenomics'>
             <div className='container mx-auto'>
                 <div className='flex items-end justify-between gap-[30px] mt-[50px] sm:mt-[70px] md:mt-[100px] lg:mt-[130px] xl:mt-[160px] 2xl:mt-[190px]'>
                     <div className='mb-[-8%] relative z-[1]'>

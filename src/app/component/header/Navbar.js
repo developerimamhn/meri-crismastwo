@@ -63,9 +63,9 @@ const Navbar = () => {
                     ${toggle ? 'right-[10]' :'right-[130%]' }
                     ${toggle ? 'opacity-100' : 'opacity-10'} 
                     `} >
-                    <Link className={`Link-manu-bar text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]`} href="/">about</Link>
-                    <Link className='Link-manu-bar text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]' href="/">tokenomics</Link>
-                    <Link className='Link-manu-bar text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]' href="/">how to buy</Link>
+                    <Link className={`Link-manu-bar text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]`} href="#about">about</Link>
+                    <Link className='Link-manu-bar text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]' href="#tokenomics">tokenomics</Link>
+                    <Link className='Link-manu-bar text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]' href="#howtobuy">how to buy</Link>
                     <Link className='Link-manu-bar text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] flex justify-center items-center gap-[10px] sm:pl-[10px] md:pl-[12px] lg:pl-[15px] xl:pl-[18px] 2xl:pl-[20px]' href="/"><Countory/></Link>
                 <div>
                     <button className='btm-new text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] py-[10px] sm:py-[12px] md:py-[15px] lg:py-[18px] xl:py-[19px] 2xl:py-[20px] px-[18px] sm:px-[20px] md:px-[22px] lg:px-[24px] xl:px-[26px] xl:px-[28px] 2xl:px-[30px] rounded-[66px] flex justify-center items-center'>Connect Wallet</button>

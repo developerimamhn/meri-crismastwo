@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Page = () => {
     return (
-        <div className='relative overflow-hidden w-full '>
+        <div className='relative overflow-hidden w-full ' id='about'>
             {/* <Image className="absolute top-0" src={image2} alt=''/> */}
             <Image className='w-full' src={image2} alt=''/>
             <div className='container mx-auto sm:px-[0] px-[24px]'>
