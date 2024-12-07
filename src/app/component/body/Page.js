@@ -10,7 +10,7 @@ const Page = () => {
             <Image className='w-full' src={image2} alt=''/>
             <div className='container mx-auto sm:px-[0] px-[24px]'>
                 
-                <div className='flex flex-col sm:flex-row pb-[140px] sm:pb-[120px] md:pb-[120px] lg:pb-[250px] xl:pb-[300px] 2xl:pb-[400px]'>
+                <div className='flex flex-col sm:flex-row pb-[140px] sm:pb-[120px] md:pb-[120px] lg:pb-[250px] xl:pb-[300px] 2xl:pb-[600px]'>
                     <div className='flex-1 relative z-20'>
                     <h1 className="!leading-[144px] merryHeading text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px]">Merry Christmas Token</h1>
                     <p  className="text-left elevatePragraph text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[17px]">The holidays are coming, and so is your chance to profit! With the MCT token, you can take advantage of seasonal market trends and join in on the excitement of a potential pump. MCT is the second project in a successful holiday ecosystem—its first token achieved an impressive 35x return! By investing in MCT, <br/><br/>   
@@ -21,13 +21,13 @@ const Page = () => {
                     </div>
                     </div>
                     <div className='flex-1'>
-                    
+                    <div className='opacity-0'>s</div>
                     </div>
                     
                 </div>
                 
             </div>
-            <Image className='absolute bottom-[0] z-10' src={image5} alt=''/>
+            <Image className='absolute bottom-[0] z-10 w-full' src={image5} alt=''/>
         </div>
     );
 };
